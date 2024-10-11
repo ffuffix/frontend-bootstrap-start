@@ -1,0 +1,56 @@
+[33mcommit 8c3db18a45c4d8d9931a541dd915678cda6a3853[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: ffuffix <ffuffix@gmail.com>
+Date:   Mon Oct 7 09:40:05 2024 +0200
+
+    t
+
+[1mdiff --git a/www/css/styles.css b/www/css/styles.css[m
+[1mindex a04ab39..d9ccfa5 100644[m
+[1m--- a/www/css/styles.css[m
+[1m+++ b/www/css/styles.css[m
+[36m@@ -11,6 +11,7 @@[m
+  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)[m
+  */[m
+ :root {[m
+[32m+[m[32m  font-family: 'Inter', sans-serif;[m
+   --bs-blue: #0d6efd;[m
+   --bs-indigo: #6610f2;[m
+   --bs-purple: #6f42c1;[m
+[36m@@ -93,7 +94,7 @@[m
+ [m
+ body {[m
+   margin: 0;[m
+[31m-  font-family: var(--bs-body-font-family);[m
+[32m+[m[32m  font-family: 'Inter', sans-serif;[m
+   font-size: var(--bs-body-font-size);[m
+   font-weight: var(--bs-body-font-weight);[m
+   line-height: var(--bs-body-line-height);[m
+[36m@@ -7963,7 +7964,7 @@[m [mtextarea.form-control-lg {[m
+ }[m
+ [m
+ .fw-bolder {[m
+[31m-  font-weight: bolder !important;[m
+[32m+[m[32m  font-weight: 900 !important;[m
+ }[m
+ [m
+ .lh-1 {[m
+[1mdiff --git a/www/index.html b/www/index.html[m
+[1mindex fd5269b..c8a601d 100644[m
+[1m--- a/www/index.html[m
+[1m+++ b/www/index.html[m
+[36m@@ -3,12 +3,13 @@[m
+     <head>[m
+         <meta charset="utf-8" />[m
+         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />[m
+[31m-        <meta name="description" content="" />[m
+[31m-        <meta name="author" content="" />[m
+[32m+[m[32m        <meta name="description" content="a blog" />[m
+[32m+[m[32m        <meta name="author" content="ffuffix" />[m
+         <title>Blog Home - Start Bootstrap Template</title>[m
+         <!-- Favicon-->[m
+         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />[m
+         <!-- Core theme CSS (includes Bootstrap)-->[m
+[32m+[m[32m        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">[m
+         <link href="css/styles.css" rel="stylesheet" />[m
+     </head>[m
+     <body>[m
